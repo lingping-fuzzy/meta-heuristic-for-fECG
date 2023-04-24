@@ -21,7 +21,7 @@ or use the one we upload from folder [signal]
 
 ## base code 
 This project is based on the framework [PlatEMO](https://github.com/BIMK/PlatEMO)
-you should first download it. 
+
 
 <br>
 
