@@ -1,6 +1,7 @@
 % this is an example code,
 % please read Readme, then check this code
-% parameter instructions is introduced in file [Fetal_problem.m]
+
+% parameter instructions is introduced in file (/Problems/Single-objective optimization/Fetal Prob/Fetal_problem.m)
 
 clear; clc;
 D = [30, 20, 22, 46, 30, 1, 46, 50, 64, 55]; 
