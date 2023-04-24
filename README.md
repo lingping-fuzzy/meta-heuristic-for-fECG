@@ -28,7 +28,7 @@ We thank this group for sharing their code.
 
 ## Reproducibility 
 
-(if you have higher version of PlatEMO) follow this 
+(if you have higher version of PlatEMO) follow this otherwise goes to Esay-TO-GO
     
     step 1: move the code file [Fetal_problem.m] to the folder of [Problem]->PlatEMO.
     step 2: modify the code of file [Fetal_problem.m] for the Path to the dataset [ICA]
@@ -60,7 +60,7 @@ Parameter instruction:
 
 More details to use PlatEMO, please check the [instructions here](https://github.com/BIMK/PlatEMO) 
 
-if you download the entire project, just run
+-[Esay-TO-GO] if you download the entire CODE, just run
 
     platemo('algorithm',@GA ,'problem',{@Fetal_problem, personID, mirror, type(Tc), initial mu-parameter},'N',15, 'D', 20,'maxFE', 100 , 'save', 2)
 
