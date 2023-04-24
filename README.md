@@ -35,15 +35,35 @@ We thank this group for sharing their code.
       it is in line-25
     step 3: run ANY single-objective algorithm to solve the problem  [Fetal_problem.m],
 
-    for example to call Genetic algorithm to solve it, by using the command 
+    For example to call Genetic algorithm to solve it, by using the command 
 
-    platemo('problem',@Fetal_problem,'algorithm',@GA,'N',4,'M', 1, 'maxFE',8, 'save', 1);
 
-    More details to use PlatEMO, please check the [instructions here](https://github.com/BIMK/PlatEMO) 
+    platemo('algorithm',@GA ,'problem',{@Fetal_problem, personID, mirror, type(Tc), initial mu-parameter},'N',15, 'D', 20,'maxFE', 100 , 'save', 2)
+
+Parameter instruction:
+ 
+    personID: in dataset, we have 12 person, you name one personID you use.
+
+    mirror: a parameter how you construct the data, similar as in LMS
+    
+    type(Tc): Tc(1 or 2), it defines how you change the coeffient, dynamic or constant.
+    
+    initial mu-parameter: a value, just an initial step size parameter in LMS. 
+    
+    then 
+    'N': population size
+    
+    'D': window size
+    
+    'maxFE', maximum fitness evaluation time
+
+
+More details to use PlatEMO, please check the [instructions here](https://github.com/BIMK/PlatEMO) 
 
 if you download the entire project, just run
 
-    platemo('problem',@Fetal_problem,'algorithm',@GA,'N',4,'M', 1, 'maxFE',8, 'save', 1);
+    platemo('algorithm',@GA ,'problem',{@Fetal_problem, personID, mirror, type(Tc), initial mu-parameter},'N',15, 'D', 20,'maxFE', 100 , 'save', 2)
+
 
 
 ## Verify the accuracy
