@@ -3,7 +3,7 @@
 Analysis on Population-based Algorithm Optimized Filter for Non-invasive fECG Extraction
 
 
-"**[Analysis on Population-based Algorithm Optimized Filter for Non-invasive fECG Extraction](url)**"
+"**[Analysis on Population-based Algorithm Optimized Filter for Non-invasive fECG Extraction](https://www.sciencedirect.com/science/article/pii/S1568494623003411?dgcid=coauthor)**"
 
 ## Requirements: 
 
@@ -42,27 +42,27 @@ We thank this group for sharing their code.
 
 Parameter instruction:
  
-    personID: in dataset, we have 12 person, you name one personID you use.
+    *personID*: in dataset, we have 12 person, you name one personID you use.
 
-    mirror: a parameter how you construct the data, similar as in LMS
+   *mirror*: a parameter how you construct the data, similar as in LMS
     
     type(Tc): Tc(1 or 2), it defines how you change the coeffient, dynamic or constant.
     
-    initial mu-parameter: a value, just an initial step size parameter in LMS. 
+   * initial mu-parameter*: a value, just an initial step size parameter in LMS. 
     
     then 
-    'N': population size
+    *'N'*: population size
     
-    'D': window size
+    *'D'*: window size
     
-    'maxFE', maximum fitness evaluation time
+    *'maxFE'*, maximum fitness evaluation time
 
 
 More details to use PlatEMO, please check the [instructions here](https://github.com/BIMK/PlatEMO) 
 
 -[Esay-TO-GO] if you download the entire CODE, just run
 
-    platemo('algorithm',@GA ,'problem',{@Fetal_problem, personID, mirror, type(Tc), initial mu-parameter},'N',15, 'D', 20,'maxFE', 100 , 'save', 2)
+    *platemo('algorithm',@GA ,'problem',{@Fetal_problem, personID, mirror, type(Tc), initial mu-parameter},'N',15, 'D', 20,'maxFE', 100 , 'save', 2)*
 
 
 
@@ -77,7 +77,7 @@ line-127 and line-139
 Step 3: line-36 to line-60 is coded for my results with specific parameter, you need to modify it based on your results,
 
      for example, you need to change ' the window size, population size, etc.''
-     
+Step-note: there are two functions for calling the verification. (uploaded in folder *qrs-detection*')     
      
 ## results - by ours
 
@@ -86,3 +86,5 @@ Step 3: line-36 to line-60 is coded for my results with specific parameter, you 
 ## QUESTIONS
 
 please contact lingping_kong@yahoo.com if you find/have problems or questions.
+
+
