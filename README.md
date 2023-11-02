@@ -87,4 +87,16 @@ Step-note: there are two functions for calling the verification. (uploaded in fo
 
 please contact lingping_kong@yahoo.com if you find/have problems or questions.
 
-
+## Citation
+If you find our work relevant to your research, please cite:
+```
+@article{kong2023analysis,
+  title={Analysis on population-based algorithm optimized filter for non-invasive fECG extraction},
+  author={Kong, Lingping and Mirjalili, Seyedali and Sn{\'a}{\v{s}}el, V{\'a}clav and Pan, Jeng-Shyang and Raj, Akshaya and Kahankova, Radana Vilimkova and Radek, Martinek},
+  journal={Applied Soft Computing},
+  volume={142},
+  pages={110323},
+  year={2023},
+  publisher={Elsevier}
+}
+```
